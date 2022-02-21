@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.airplane {
+    display: block;
+    margin-bottom: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.container {
+position: relative;
+}
+.text-box{
+    position: absolute;
+    top: 0px;
+    left: 825px;
+    background-color: white;
+    opacity: .5;
+    color: black;
+    height: 1000px;
+    width: 45%;
+    box-sizing: border-box;
+  
+}
+.main-heading{
+    position: absolute;
+    color: red;
+    margin-left: 70px;
+    right: 20px;
+    font-size:xxx-large;
+    font-family: 'ralewaythin';
+}
+.main-paragraph {
+position: absolute;
+margin-left: 70px;
+right: 20px;
+top: 200px;
+font-size: large;
+font-family: "pretty"; src: url('\RobotoSerif-Italic-VariableFont_GRAD,opsz,wdth,wght.ttf');
+}
+
+.button-heading {
+    position: absolute;
+    top: 700px;
+    left: 70px;
+    right: 20px;
+}
+
+
+.button1
+{
+
+    
+position: relative;
+top: 820px;
+width: 570px;
+left: 60px;
+height: 45px;
+border-style:groove;
+border-color:black;
+color: white;
+shape-margin: 10%;
+border-radius: 5px;
+background: rgba(0,0,255, 0.79)
+
+
+}
+.button2
+{
+
+    
+position: relative;
+top: 840px;
+width: 570px;
+left: 60px;
+height: 45px;
+border-style:groove;
+border-color:black;
+color: white;
+shape-margin: 10%;
+border-radius: 5px;
+background: rgba(128,0,0, 0.79)
+
+
+}
